@@ -1,6 +1,6 @@
 # Counter
 
-> `A simple counter application built with reactjs and react-redux and redux-thunk middleware`
+> A simple counter application built with reactjs and react-redux and redux-thunk middleware
 
 ## Available Scripts
 
