@@ -1,8 +1,14 @@
 import styles from "./App.module.css";
+
+//Component import
+import Counter from "../../Components/Counter";
+import Controller from "../../Containers/Controller/Controller";
+//
 const App = () => {
   return (
     <div className={styles.App}>
-      <h1>Counter Application</h1>
+      <Counter />
+      <Controller />
     </div>
   );
 };
