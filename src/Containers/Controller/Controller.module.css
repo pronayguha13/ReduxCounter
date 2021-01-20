@@ -2,23 +2,46 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  width: 90%;
+  box-shadow: 12px 12px 18px 0 rgba(0, 0, 0, 0.25),
+    41px 9px 31px 0 rgba(255, 255, 255, 0.3),
+    -4px -6px 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
 }
 
 .InputTime {
   width: 150px;
-  background-color: #698f3f;
+  background-color: #f3f9e3;
   outline: none;
-  border: 1px solid #698f3f;
-  border-bottom: 5px solid #698f3f;
+  border: 1px solid #f3f9e3;
+  border-bottom: 5px solid #f3f9e3;
   padding: 6px;
-  height: 35px;
+  height: 45px;
   margin-top: 10px;
   overflow: hidden;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   border-radius: 10px;
-  color: #fbfaf8;
+  color: #475b63;
+  box-shadow: 18px 24px 60px 0 rgba(255, 255, 255, 0.3) inset,
+    8px 4px 12px 0 rgba(0, 0, 0, 0.25) inset;
+}
+.InputTime:hover {
+  box-shadow: 18px 24px 60px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -4px 12px 0 rgba(0, 0, 0, 0.25) inset;
+}
+
+.AddSubstractTimerButton {
+  color: #475b63;
+  background-color: #f3f9e3;
+  border-color: #f3f9e3;
+  border-radius: 5px;
+  box-shadow: 6px 11px 13px 0 rgba(39, 37, 37, 0.3);
+}
+
+.AddSubstractTimerButton:hover {
+  color: #000;
+  box-shadow: 6px 11px 13px 0 rgba(39, 37, 37, 0.3) inset;
 }
 
 .PlayButton {
@@ -27,15 +50,34 @@
   height: 50px;
   margin-top: 20px;
   margin-bottom: 10px;
+  background-color: #f3f9e3;
+  box-shadow: 6px 11px 13px 0 rgba(39, 37, 37, 0.3);
+}
+.PlayButton:hover {
+  box-shadow: 6px 11px 13px 0 rgba(39, 37, 37, 0.3) inset;
 }
 
 .StopResetContainer {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .StopButton {
   margin: 5px;
+  background-color: #f3f9e3;
+  border-color: #f3f9e3;
+  box-shadow: 6px 11px 13px 0 rgba(39, 37, 37, 0.3);
+}
+.StopButton:hover {
+  box-shadow: 6px 11px 13px 0 rgba(39, 37, 37, 0.3) inset;
 }
 .ResetButton {
   margin: 5px;
+  background-color: #f3f9e3;
+  border-color: #f3f9e3;
+  box-shadow: 6px 11px 13px 0 rgba(39, 37, 37, 0.3);
+}
+
+.ResetButton:hover {
+  box-shadow: 6px 11px 13px 0 rgba(39, 37, 37, 0.3) inset;
 }

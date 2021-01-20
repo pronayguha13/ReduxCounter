@@ -5,18 +5,24 @@ const Controller = () => {
   return (
     <div className={style.Controller}>
       <div>
-        <button className="btn btn-success">-5</button>
-        <input type="number" min="0" className={style.InputTime} />
-        <button className="btn btn-success">+5</button>
+        <button className={`${style.AddSubstractTimerButton} btn`}>-5</button>
+        <input
+          type="number"
+          min="0"
+          step="5"
+          className={style.InputTime}
+          placeholder="Enter your time"
+        />
+        <button className={`${style.AddSubstractTimerButton} btn`}>+5</button>
       </div>
-      <button className={`${style.PlayButton} btn btn-primary`}>
+      <button className={`${style.PlayButton} btn`}>
         <img src="/image/play.png" alt="Start" style={{ height: 35 }} />
       </button>
       <div className={style.StopResetContainer}>
-        <button className={`${style.StopButton} btn btn-danger`}>
+        <button className={`${style.StopButton} btn`}>
           <img src="/image/stop-button.png" alt="Stop" />
         </button>
-        <button className={`${style.ResetButton} btn btn-warning`}>
+        <button className={`${style.ResetButton} btn`}>
           <img src="/image/reset.png" alt="Reset" />
         </button>
       </div>
