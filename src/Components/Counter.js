@@ -1,9 +1,10 @@
 import React from "react";
+import style from "./Counter.module.css";
 
 const Counter = (props) => {
   return (
-    <div>
-      <h2>Counter will be displayed here</h2>
+    <div className={style.DisplayPanel}>
+      <p className={style.CountdownTime}>00:00</p>
     </div>
   );
 };
