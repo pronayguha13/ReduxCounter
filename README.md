@@ -2,6 +2,8 @@
 
 > A simple counter application built with reactjs and react-redux and redux-thunk middleware
 
+## Live Demo: [http://count-down-timer.surge.sh/](http://count-down-timer.surge.sh/)
+
 ## Available Scripts
 
 In the project directory, you can run:
