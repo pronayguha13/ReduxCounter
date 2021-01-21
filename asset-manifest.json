@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pronayguha13.github.io/ReduxCounter/static/css/main.3fb4ae8d.chunk.css",
+    "main.js": "/pronayguha13.github.io/ReduxCounter/static/js/main.3b0c8993.chunk.js",
+    "main.js.map": "/pronayguha13.github.io/ReduxCounter/static/js/main.3b0c8993.chunk.js.map",
+    "runtime-main.js": "/pronayguha13.github.io/ReduxCounter/static/js/runtime-main.dc4768af.js",
+    "runtime-main.js.map": "/pronayguha13.github.io/ReduxCounter/static/js/runtime-main.dc4768af.js.map",
+    "static/js/2.10fb8330.chunk.js": "/pronayguha13.github.io/ReduxCounter/static/js/2.10fb8330.chunk.js",
+    "static/js/2.10fb8330.chunk.js.map": "/pronayguha13.github.io/ReduxCounter/static/js/2.10fb8330.chunk.js.map",
+    "index.html": "/pronayguha13.github.io/ReduxCounter/index.html",
+    "static/css/main.3fb4ae8d.chunk.css.map": "/pronayguha13.github.io/ReduxCounter/static/css/main.3fb4ae8d.chunk.css.map",
+    "static/js/2.10fb8330.chunk.js.LICENSE.txt": "/pronayguha13.github.io/ReduxCounter/static/js/2.10fb8330.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc4768af.js",
+    "static/js/2.10fb8330.chunk.js",
+    "static/css/main.3fb4ae8d.chunk.css",
+    "static/js/main.3b0c8993.chunk.js"
+  ]
+}
