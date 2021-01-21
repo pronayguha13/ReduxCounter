@@ -4,7 +4,7 @@ import CounterReducer from "./reducers/CounterReducer";
 
 const store = createStore(
   CounterReducer,
-  { counterTimer: 0 },
+  { counterTimer: 5 },
   applyMiddleware(logger)
 );
 
