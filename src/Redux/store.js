@@ -1,11 +1,10 @@
 import { applyMiddleware, createStore } from "redux";
-import logger from "redux-logger";
 import CounterReducer from "./reducers/CounterReducer";
 
-const store = createStore(
-  CounterReducer,
-  { counterTimer: 5 },
-  applyMiddleware(logger)
-);
+const store = createStore(CounterReducer, {
+  counterTimer: 5,
+  isCounting: false,
+  lastTimer: 5,
+});
 
 export default store;

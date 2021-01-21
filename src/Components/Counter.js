@@ -2,8 +2,6 @@ import React from "react";
 import style from "./Counter.module.css";
 
 const Counter = ({ counterTimer }) => {
-  console.log("🚀 ~ file: Counter.js ~ line 5 ~ Counter ~ props", counterTimer);
-
   const updateDisplayPanel = (counterTimer) => {
     let second = counterTimer % 60;
     let minute = parseInt(counterTimer / 60);
@@ -20,10 +18,6 @@ const Counter = ({ counterTimer }) => {
       second = "0" + second.toString();
     }
     let timer = minute + ":" + second;
-    console.log(
-      "🚀 ~ file: Counter.js ~ line 22 ~ updateDisplayPanel ~ timer",
-      timer
-    );
     return timer;
   };
 
